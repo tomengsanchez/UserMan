@@ -2,10 +2,10 @@
 const userModel = require('../model/model');
 
 exports.getList = (req , res)=>{
-    console.log(userModel);
+    // console.log(userModel);
     res.json({
         message: 'this is get list function',
-        model:userModel.sample
+        model:userModel.sample()
     });
 }
 

@@ -5,7 +5,7 @@ const controller = require('./main');
 
 const usersRouter = require('../users/routes/routes');
 
-console.log(controller);
+// console.log(controller);
 //Main
 router.get('/',controller.main);
 

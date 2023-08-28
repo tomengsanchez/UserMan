@@ -1,9 +1,7 @@
 
-const sample = ()=>{
-    const message = 'This is User Model';
-    
-    return 12;
-    
+
+function sample(){
+    return 'tomeng meng dead';
 }
 module.exports = {
     sample

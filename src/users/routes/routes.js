@@ -1,7 +1,7 @@
 
-const userController = require('../controller/controller');
+const { getList , addUsers , getRoles} = require('../controller/controller');
 
 
-exports.getUsers = userController.getList;
-exports.addUsers = userController.addUsers;
-exports.getRoles = userController.getRoles;
+exports.getUsers = getList;
+exports.addUsers = addUsers;
+exports.getRoles = getRoles;
