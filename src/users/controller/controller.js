@@ -1,9 +1,11 @@
 
+const userModel = require('../model/model');
 
 exports.getList = (req , res)=>{
-    
+    console.log(userModel);
     res.json({
-        message: 'this is get list function'
+        message: 'this is get list function',
+        model:userModel.sample
     });
 }
 
